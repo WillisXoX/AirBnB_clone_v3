@@ -22,6 +22,7 @@ class DBStorage:
         '''
             Create engine and link to MySQL databse (hbnb_dev, hbnb_dev_db)
         '''
+
         user = getenv("HBNB_MYSQL_USER")
         pwd = getenv("HBNB_MYSQL_PWD")
         host = getenv("HBNB_MYSQL_HOST")
